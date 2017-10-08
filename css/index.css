@@ -98,4 +98,7 @@ article{
         border-radius: 20px;
         padding: 1em;
     }
+    .row{
+        margin: 0.5em;
+    }
 }
