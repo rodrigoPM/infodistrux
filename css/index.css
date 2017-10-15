@@ -52,7 +52,8 @@ nav div button{
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #777777;
+  /*background-color: #76E8D1;*/
+    background-color:#33FF99;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -82,7 +83,11 @@ footer {
     margin-bottom: 0;
     text-align: center; 
 }
-
+#logo {
+    width: 60px;
+    height: 50px;
+    margin-right: 5px;
+}
 article{
     border: 2px solid tomato;
     border-radius: 10px;
