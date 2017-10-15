@@ -101,4 +101,8 @@ article{
     .row{
         margin: 0.5em;
     }
+    figure{
+        display: flex;
+        justify-content: center;
+    }
 }
