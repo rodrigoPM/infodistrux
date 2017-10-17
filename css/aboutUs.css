@@ -51,28 +51,12 @@ nav div button{
 #mainNav {
 	background:rgba(0,0,0,0.95)
 }
-header.masthead {
-  margin-bottom: 50px;
-  background: no-repeat center center;
-  /*background-color: #76E8D1;*/
-    background-color:#33FF99;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
-}
-  header.masthead .site-heading {
-    padding: 200px 0 150px;
-    color: white; }
-  header.masthead .site-heading {
-    text-align: center; }
-    header.masthead .site-heading h1 {
-      font-size: 50px;
-      margin-top: 0; 
-}
 
-
+header{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
 footer {
     background-color: black;
     color: white;
@@ -90,26 +74,11 @@ footer {
     height: 50px;
     margin-right: 5px;
 }
-article{
-    border: 2px solid tomato;
-    border-radius: 10px;
-    padding: 1em;
-    margin: 10px;
-}
 @media (max-width: 630px){
     body{
         font-size: 1em;
     }
-    article{
-        border: 2px solid green;
-        border-radius: 20px;
-        padding: 1em;
-    }
     .row{
         margin: 0.5em;
-    }
-    figure{
-        display: flex;
-        justify-content: center;
     }
 }
